@@ -1,0 +1,81 @@
+.user-page {
+  min-height: 100vh;
+  padding: 133px 156px;
+
+  @media only screen and (max-width: 1440px) {
+    min-height: 100%;
+    padding: 33px 41px;
+    background-repeat: no-repeat;
+  }
+}
+
+.user-page__container {
+  background: #242424;
+  display: flex;
+  height: fit-content;
+
+  justify-content: space-between;
+
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+    background: transparent;
+    gap: 28px;
+  }
+}
+
+.user-page__container-main {
+  display: flex;
+  gap: 71px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 88px 71px 45px 61px;
+
+  @media only screen and (max-width: 1200px) {
+    padding: 0px;
+  }
+}
+
+.user-page__repository {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.user-page__user-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  background: var(--background-secondary);
+}
+
+.user-page__button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--white-primary);
+
+  padding: 60px 0 0 0;
+
+  @media only screen and (max-width: 1200px) {
+    padding: 28px 0 0 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.user-page__button-back {
+  padding: 24px 24px 0 0;
+
+  @media only screen and (max-width: 1200px) {
+    padding: 0px;
+    order: -1;
+  }
+}

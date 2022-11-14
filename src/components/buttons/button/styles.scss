@@ -1,0 +1,90 @@
+.user-card__button {
+  padding: 10px 32px;
+
+  min-width: 149px;
+  height: 47px;
+
+  background: linear-gradient(90deg, #0487ff 0%, #1665c1 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: 0;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+
+  color: var(--white-primary);
+
+  &:hover {
+    background: linear-gradient(90deg, #036cce 0%, #0f4686 100%);
+  }
+}
+
+.back__button {
+  padding: 10px 32px;
+
+  min-width: 136;
+  height: 47px;
+
+  background: linear-gradient(90deg, #0487ff 0%, #1665c1 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  border: 0;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+
+  color: var(--white-primary);
+
+  &:hover {
+    background: linear-gradient(90deg, #036cce 0%, #0f4686 100%);
+  }
+}
+
+.login-form__button {
+  color: var(--white-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  width: 379px;
+  height: 67px;
+  margin-top: 115px;
+
+  border: 0px solid;
+  background: linear-gradient(132.34deg, #ff2d04 22.57%, #c13216 72.04%);
+  box-shadow: 5px 5px 15px 0px #00000026 inset;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(132.34deg, #af1f02 22.57%, #8b2410 72.04%);
+  }
+}
+
+.error__button {
+  color: var(--white-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  width: 379px;
+  height: 67px;
+
+  border: 0px solid;
+  background: linear-gradient(132.34deg, #ff2d04 22.57%, #c13216 72.04%);
+  box-shadow: 5px 5px 15px 0px #00000026 inset;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(132.34deg, #af1f02 22.57%, #8b2410 72.04%);
+  }
+}

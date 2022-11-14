@@ -1,0 +1,47 @@
+.user-card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 32px 45px 32px 33px;
+
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+
+  background: var(--background-primary);
+}
+
+.user-card__user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.user-card__image {
+  width: 93px;
+  height: 93px;
+}
+
+.user-card__user_name {
+  font-family: 'Inter';
+  font-style: normal;
+
+  h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: var(--white-primary);
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #8d8d8d;
+  }
+}

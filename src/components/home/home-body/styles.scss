@@ -1,0 +1,62 @@
+.home-body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.home-body-container__image {
+  width: 824px;
+  height: 824px;
+  left: -146px;
+  bottom: -100px;
+  position: absolute;
+
+  background-image: url('../../../assets/uol-ball-transparent.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media only screen and (max-width: 1640px) {
+    width: 660px;
+    height: 660px;
+    left: -213px;
+  }
+}
+
+.home-body-container__text {
+  padding-right: 135px;
+
+  text-align: end;
+
+  position: absolute;
+  right: 0;
+
+  h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 34px;
+    color: var(--red-primary);
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--black-secondary);
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: var(--red-primary);
+  }
+
+  @media only screen and (max-width: 1440px) {
+    display: none;
+  }
+}

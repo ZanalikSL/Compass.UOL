@@ -1,0 +1,19 @@
+.share-button {
+  padding: 10px;
+
+  height: 47px;
+  min-width: 44px;
+
+  background: linear-gradient(90deg, #0487ff 0%, #1665c1 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: 0;
+
+  cursor: pointer;
+
+  color: var(--white-primary);
+
+  &:hover {
+    background: linear-gradient(90deg, #036cce 0%, #0f4686 100%);
+  }
+}

@@ -1,0 +1,132 @@
+.footer-container {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  width: 100vw;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background: linear-gradient(90.16deg, #33383d 0%, #1c1d20 100%);
+}
+
+.footer-container__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--white-primary);
+  width: 100vw;
+  padding: 16px 35px 0 0;
+  text-align: end;
+  display: flex;
+  justify-content: end;
+
+  border-right: 1px solid var(--white-primary);
+  margin: 17px 0 22px 0;
+
+  p {
+    max-width: 541px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.footer-container__app {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100vw;
+}
+
+.footer-container__time {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  padding: 0 30px 0 123px;
+  gap: 34px;
+
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--white-primary);
+  }
+
+  @media only screen and (max-width: 728px) {
+    display: none;
+  }
+}
+
+.footer-container__clock {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: var(--white-primary);
+
+  line-height: 38px;
+}
+
+.footer-container__buttons {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: 728px) {
+    width: 100vw;
+  }
+}
+
+.footer-button__buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 131px;
+  height: 100%;
+  background: var(--white-primary);
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #c13216;
+
+  cursor: pointer;
+
+  @media only screen and (max-width: 728px) {
+    order: 1;
+    width: inherit;
+  }
+}
+
+.footer-button__logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 131px;
+  height: 100%;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  text-align: center;
+
+  color: var(--white-primary);
+
+  cursor: pointer;
+
+  @media only screen and (max-width: 728px) {
+    order: 0;
+  }
+}
